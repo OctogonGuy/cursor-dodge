@@ -1,0 +1,12 @@
+.root {
+	-fx-padding: 10px;
+}
+
+.title {
+	-fx-padding: 30px;
+}
+
+.button-bar {
+	-fx-padding: 5px;
+	-fx-spacing: 10px;
+}

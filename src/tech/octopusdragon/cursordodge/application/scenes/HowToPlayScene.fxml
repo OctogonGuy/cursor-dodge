@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane prefHeight="300.0" prefWidth="400.0" stylesheets="@../../../../../resources/styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tech.octopusdragon.cursordodge.application.scenes.HowToPlaySceneController">
+   <top>
+      <Label styleClass="title" maxHeight="1.7976931348623157E308" text="How to Play" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <Label maxHeight="1.7976931348623157E308" text="Use your cursor to dodge the red bouncing balls for as long as you can. As time goes on, they will increase in both speed and number. If you hit one of the them, you will lose. If you move your cursor outside of the window, you will lose as well. When a blue ball appears, move to it and touch it with your cursor before it disappears." wrapText="true" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox styleClass="button-bar" alignment="CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#switchToTitleScene" text="Back" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
