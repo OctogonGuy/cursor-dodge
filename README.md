@@ -1,1 +1,1 @@
-Dodge the bouncing circles with your mouse
+Use your cursor to dodge the red bouncing balls for as long as you can. As time goes on, they will increase in both speed and number. If you hit one of the them, you will lose. If you move your cursor outside of the window, you will lose as well. When a blue ball appears, move to it and touch it with your cursor before it disappears.
